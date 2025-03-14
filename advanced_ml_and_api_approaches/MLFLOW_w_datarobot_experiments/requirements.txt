@@ -1,6 +1,8 @@
 datarobot==3.0.1
 matplotlib==3.5.3
 pandas==1.2.5
-numpy==1.21.5
+numpy==1.22.2
 papermill==2.4.0
 mlflow==1.29.0
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
