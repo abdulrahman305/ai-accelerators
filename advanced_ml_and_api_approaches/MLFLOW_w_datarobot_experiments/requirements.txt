@@ -3,4 +3,4 @@ matplotlib==3.5.3
 pandas==1.2.5
 numpy==1.21.5
 papermill==2.4.0
-mlflow==1.29.0
+mlflow==2.20.2
