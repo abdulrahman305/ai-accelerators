@@ -4,3 +4,4 @@ pandas==1.2.5
 numpy==1.21.5
 papermill==2.4.0
 mlflow==1.29.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
