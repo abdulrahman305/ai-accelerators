@@ -11,3 +11,4 @@ numpy == 1.24.1
 opencv-python-headless == https://protect-usb.mimecast.com/s/9SDZC5AonVi6LAKAfO7h1A?domain=4.7.0.72
 
 pandas==1.5.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
