@@ -1,9 +1,9 @@
-import json
 from concurrent.futures import ThreadPoolExecutor
+import json
 
 import datarobot as dr
-import requests
 from pandas import json_normalize
+import requests
 
 
 def get_deployment_info(deployment_id: str, dr_token: str, dr_url: str) -> dict:

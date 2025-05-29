@@ -1,8 +1,10 @@
 import gettext
 import os
-import warnings
 from textwrap import dedent
+import warnings
 
+from PIL import Image
+from drops import get_deployment_infos, get_prediction
 import numexpr
 import optuna
 import optunahub
@@ -10,8 +12,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from drops import get_deployment_infos, get_prediction
-from PIL import Image
 
 if not os.getenv("SCRIPT_NAME"):
     from dotenv import load_dotenv
@@ -314,7 +314,6 @@ with tab1:
             feats_value_mean.append(feat_value_mean)
     if simulate:
         with col2:
-
             trial_all, trial_pareto, study = run_optimization(
                 st.session_state.trials_num,
                 targets,
@@ -359,7 +358,6 @@ with tab2:
 
         x_axis = st.selectbox(_("Select X-axis"), ["Iteration"] + feats, key="x_axis")
         for t in targets:
-
             fig = px.scatter(
                 trial_all,
                 x=x_axis,
