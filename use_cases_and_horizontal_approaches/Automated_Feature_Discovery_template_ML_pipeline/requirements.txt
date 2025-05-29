@@ -4,3 +4,4 @@ pandas==1.2.5
 ipython==8.7.0
 snowflake-connector-python == 2.9.0 
 #dependencies for snowflake-connector-python used here https://github.com/snowflakedb/snowflake-connector-python/blob/main/tested_requirements/requirements_39.reqs
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
