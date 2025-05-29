@@ -16,3 +16,4 @@ wordcloud
 matplotlib.pyplot
 textblob
 streamlit_survey
+tornado>=6.5 # not directly required, pinned by Snyk to avoid a vulnerability
