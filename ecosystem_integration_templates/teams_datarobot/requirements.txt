@@ -7,3 +7,4 @@ nltk
 py-readability-metrics
 datarobot-mlops
 datarobot-mlops-connected-client
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
