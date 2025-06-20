@@ -5,3 +5,5 @@ plotly==5.13.0
 pyarrow==10.0.1
 streamlit==1.18.1
 toml==0.10.2
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
