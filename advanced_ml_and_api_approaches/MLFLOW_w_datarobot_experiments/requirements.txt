@@ -3,4 +3,6 @@ matplotlib==3.5.3
 pandas==1.2.5
 numpy==1.21.5
 papermill==2.4.0
-mlflow==1.29.0
+mlflow==3.1.1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
