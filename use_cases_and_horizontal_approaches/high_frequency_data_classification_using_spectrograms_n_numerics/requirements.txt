@@ -49,5 +49,5 @@ threadpoolctl==3.1.0
 tqdm==4.65.0
 trafaret==2.1.1
 typing_extensions==4.3.0
-urllib3==1.26.15
+urllib3==2.5.0
 zipp==3.15.0
