@@ -1,7 +1,7 @@
 Pillow == 9.3.0
 pydantic == 1.9.0
 torch-utils == 0.1.2
-torch == 1.13.1
+torch==2.9.0
 torchvision == 0.14.1
 tqdm == 4.64.1
 datarobot == 3.1.0
