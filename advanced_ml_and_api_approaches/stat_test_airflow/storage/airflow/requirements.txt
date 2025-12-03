@@ -10,5 +10,5 @@ scikit-learn
 urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
 flask-appbuilder>=4.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
 dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
-werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
