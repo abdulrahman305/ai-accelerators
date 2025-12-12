@@ -12,3 +12,4 @@ flask-appbuilder>=4.8.1 # not directly required, pinned by Snyk to avoid a vulne
 dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
 werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
