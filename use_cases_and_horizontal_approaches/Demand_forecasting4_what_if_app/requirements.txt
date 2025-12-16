@@ -5,3 +5,4 @@ plotly==5.13.0
 pyarrow==10.0.1
 streamlit==1.18.1
 toml==0.10.2
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
